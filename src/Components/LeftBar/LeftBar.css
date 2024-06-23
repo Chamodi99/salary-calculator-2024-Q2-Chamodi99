@@ -16,7 +16,7 @@
 }
 
 .leftHead p {
-    font-family: 'Inter', sans-serif; /* Ensure 'Inter' is available, otherwise fallback to a generic sans-serif font */
+    font-family: 'Inter', sans-serif; 
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;

@@ -2,8 +2,6 @@ import './DashboardHead.css';
 import bellIcon from "../../Assets/HeaderNavigation/Bell-off.svg";
 import avatar from "../../Assets/HeaderNavigation/Ellipse 6.svg";
 import chevronDown from "../../Assets/HeaderNavigation/Chevron-down.svg";
-// import Badge from '@mui/material/Badge';
-// import IconButton from '@mui/material/IconButton';
 
 const DashboardHead = () => {
     return(

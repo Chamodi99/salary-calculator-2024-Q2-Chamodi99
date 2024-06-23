@@ -204,7 +204,6 @@ const CustomPagination = styled(Pagination)(({ theme }) => ({
     const renderPageNumbers = () => {
         const handlePageChange = (event, page) => {
             setCurrentPage(page);
-            // Handle any additional logic you need when the page changes
           };
         
         const pageNumbers = [];
