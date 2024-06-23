@@ -39,7 +39,7 @@ const BarChartSet = ({ data }) => {
                 payload={legendItems.map(item => ({
                     ...item,
                     color: item.color, 
-                    value: <span style={{ color: 'black',marginRight: 'px' }}>{item.value}</span>
+                    value: <span style={{ color: 'black',marginRight: '20px' }}>{item.value}</span>
                 }))}
                 wrapperStyle={{ paddingTop: '40px' }} 
             />
