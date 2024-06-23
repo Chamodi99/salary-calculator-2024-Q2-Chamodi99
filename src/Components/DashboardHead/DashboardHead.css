@@ -1,0 +1,17 @@
+.dashboardhead{
+    background-color: white;
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.3);
+    height: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.dashboardhead h3{
+    color: black;
+    padding: 30px;
+    align-items: center;
+}
+

@@ -1,0 +1,48 @@
+.welcome{
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 16px 16px 0 16px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.leftcontent{
+    height: 100%;
+    width: 80%;
+    align-content: center;
+    align-items: center;
+}
+.rightcontent{
+    height: 100%;
+    width: 5%;
+    align-content: center;
+    align-items: center;
+}
+
+.middlecontent{
+    height: 100%;
+    width: 15%;
+    align-content: center;
+    align-items: center;
+}
+.welcome p{
+    color: #757575;
+    padding-left: 10px;
+}
+
+.welcome a{
+    color: #BC006D;
+
+}
+
+#close{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#group{
+    width:100px;
+    height:100px;
+    padding-right:10px ;
+}

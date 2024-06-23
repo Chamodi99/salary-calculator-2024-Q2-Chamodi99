@@ -1,0 +1,14 @@
+.tasks{
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin: 16px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    text-align: left;
+    max-height: 970px;
+    overflow: auto;
+}
+
+.tasks h2{
+    padding-left: 10px;
+}
+
