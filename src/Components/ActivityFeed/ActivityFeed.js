@@ -15,7 +15,8 @@ const ActivityFeed = () => {
                     <tr>
                         <td>
                             <img
-                            src={Kushantha}>
+                            src={Kushantha}
+                            alt='Kushantha'>
                             </img>
                         </td>
                         <td>
@@ -30,7 +31,8 @@ const ActivityFeed = () => {
                     <tr>
                         <td>
                             <img
-                            src={Lorem}>
+                            src={Lorem}
+                            alt='lorem'>
                             </img>
                         </td>
                         <td>
@@ -46,7 +48,8 @@ const ActivityFeed = () => {
                     <tr>
                         <td>
                             <img
-                            src={Lorem}>
+                            src={Lorem}
+                            alt='lorem'>
                             </img>
                         </td>
                         <td>

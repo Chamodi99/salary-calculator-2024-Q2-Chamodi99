@@ -11,7 +11,8 @@ const LeftBar = () => {
             <div className="navigator">
                         <div style={{marginLeft:'10px'}}>
                             <img
-                                src={dashboard}>
+                                src={dashboard}
+                                alt='dashboard'>
                             </img>
                         </div>
                         <div  style={{marginLeft:'10px'}}>

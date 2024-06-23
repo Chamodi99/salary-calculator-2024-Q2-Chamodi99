@@ -36,16 +36,21 @@ const BarChartSet = ({ data }) => {
                 iconSize={7}
                 iconType="circle"
                 layout="horizontal"
-                payload={legendItems}
+                payload={legendItems.map(item => ({
+                    ...item,
+                    color: item.color, 
+                    value: <span style={{ color: 'black',marginRight: 'px' }}>{item.value}</span> // Override text color to black
+                }))}
                 wrapperStyle={{ paddingTop: '40px' }} 
             />
             
-            <Bar dataKey="count" isAnimationActive={false}  radius={[10, 10, 10, 10]}>
+            <Bar dataKey="count"  isAnimationActive={false}  radius={[10, 10, 10, 10]}>
                 {chartData.map((entry, index) => (
                     <Bar 
                         key={`bar-${index}`} 
                         dataKey="count" 
-                        fill={entry.fill} 
+                        fill={entry.fill}
+                        width={46} 
                         />
                 ))}
             </Bar>

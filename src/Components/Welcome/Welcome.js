@@ -14,20 +14,22 @@ const Welcome = () => {
                     <span style={{color:'#757575'}}>The end of the year is coming. Are you planning your performance interviews? You can do this super efficiently with Acmy.</span> 
                 </Typography>
                 <Typography>
-                    <span style={{color:'#BC006D'}}><a href="">Look here for more information</a></span>
+                    <span style={{color:'#BC006D'}}><a href=" ">Look here for more information</a></span>
                 </Typography>
             </div>   
             
                 <div className="middlecontent">
                     <img
                     id='group'
-                    src={group} >
+                    src={group}
+                    alt='group' >
                     </img>
                 </div>
                 <div className="rightcontent">
                     <img
                     id='close'
-                    src={close}>
+                    src={close}
+                    alt='close'>
                     </img>
                 </div>
                 
